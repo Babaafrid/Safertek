@@ -1,0 +1,86 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.gradebook-app {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 8px;
+  position: fixed;
+  bottom: 5;
+  width: 100%;
+}
+
+.main-block {
+  margin-top: 20px;
+}
+
+.options {
+  margin-bottom: 10px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th,
+.student-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+}
+
+
+.statistics-block {
+  background-color: #f2f2f2;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 600px) {
+  .gradebook-app {
+    width: 100%;
+  }
+}
